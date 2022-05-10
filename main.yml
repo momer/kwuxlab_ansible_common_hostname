@@ -8,7 +8,7 @@
   vars_files:
     - version.yml
   tags:
-    - kwuxlab_common_hostname
+    - kwuxlab_ansible_common_hostname
   pre_tasks:
     - name: Collect facts
       ansible.builtin.setup:
