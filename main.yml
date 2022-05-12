@@ -6,6 +6,7 @@
     - include: handlers/task_completion.yml
     - include: handlers/machine.yml
   vars_files:
+    - vars.yml
     - version.yml
   tags:
     - kwuxlab_ansible_common_hostname
